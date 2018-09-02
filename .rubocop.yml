@@ -183,5 +183,7 @@ Style/SpecialGlobalVars:
   Enabled: false
 Rails/ActiveRecordAliases:
   Enabled: false
+Style/PerlBackrefs:
+  Enabled: false
 Layout/ClosingParenthesisIndentation:
   Enabled: false
