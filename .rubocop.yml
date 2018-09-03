@@ -187,3 +187,5 @@ Style/PerlBackrefs:
   Enabled: false
 Layout/ClosingParenthesisIndentation:
   Enabled: false
+Layout/MultilineMethodCallBraceLayout:
+  Enabled: false
