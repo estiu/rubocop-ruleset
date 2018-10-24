@@ -189,3 +189,5 @@ Layout/ClosingParenthesisIndentation:
   Enabled: false
 Layout/MultilineMethodCallBraceLayout:
   Enabled: false
+Style/LambdaCall:
+  Enabled: false
