@@ -1,25 +1,17 @@
 AllCops:
-  TargetRubyVersion: 2.5
+  TargetRubyVersion: 3.2.2
   Exclude:
     - "db/schema.rb"
   UseCache: false
-Rails:
-  Enabled: true
-Rails/NotNullColumn:
-  Enabled: false
-Rails/UnknownEnv:
-  Enabled: false
-Naming/UncommunicativeMethodParamName:
+Naming/MethodParameterName:
   Enabled: false
 Metrics/ParameterLists:
-  Enabled: false
-Rails/LexicallyScopedActionFilter:
   Enabled: false
 Layout/EmptyLinesAroundBlockBody:
   Enabled: false
 Style/TernaryParentheses:
   Enabled: false
-Metrics/LineLength:
+Layout/LineLength:
   Enabled: false
 Style/StringLiterals:
   Enabled: false
@@ -55,8 +47,6 @@ Lint/Debugger:
   Enabled: false
 Layout/EmptyLinesAroundClassBody:
   Enabled: false
-Rails/FindEach:
-  Enabled: false
 Style/Next:
   Enabled: false
 Metrics/AbcSize:
@@ -64,8 +54,6 @@ Metrics/AbcSize:
 Metrics/MethodLength:
   Enabled: false
 Layout/EmptyLinesAroundMethodBody:
-  Enabled: false
-Rails/HasAndBelongsToMany:
   Enabled: false
 Style/MixinUsage:
   Enabled: false
@@ -90,8 +78,6 @@ Style/GuardClause:
 Style/IfUnlessModifier:
   Enabled: false
 Layout/EmptyLinesAroundModuleBody:
-  Enabled: false
-Style/BracesAroundHashParameters:
   Enabled: false
 Layout/ExtraSpacing:
   Enabled: false
@@ -119,13 +105,9 @@ Style/SignalException:
   Enabled: false
 Metrics/PerceivedComplexity:
   Enabled: false
-Lint/UnneededSplatExpansion:
+Lint/RedundantSplatExpansion:
   Enabled: false
-Layout/IndentHash:
-  Enabled: false
-Rails/OutputSafety:
-  Enabled: false
-Performance/StringReplacement:
+Layout/FirstHashElementIndentation:
   Enabled: false
 Metrics/ModuleLength:
   Enabled: false
@@ -145,13 +127,11 @@ Style/NestedParenthesizedCalls:
   Enabled: false
 Lint/ParenthesesAsGroupedExpression:
   Enabled: false
-Layout/AlignParameters:
-  Enabled: false
-Performance/RedundantMerge:
+Layout/ParameterAlignment:
   Enabled: false
 Lint/AmbiguousBlockAssociation:
   Enabled: false
-Style/MethodMissingSuper:
+Lint/MissingSuper:
   Enabled: false
 Style/MissingRespondToMissing:
   Enabled: false
@@ -159,7 +139,7 @@ Lint/Loop:
   Enabled: false
 Metrics/CyclomaticComplexity:
   Enabled: false
-Style/UnneededInterpolation:
+Style/RedundantInterpolation:
   Enabled: false
 Style/SafeNavigation:
   Enabled: false
@@ -171,17 +151,13 @@ Style/InfiniteLoop:
   Enabled: false
 Style/ParenthesesAroundCondition:
   Enabled: false
-Performance/Casecmp:
+Style/RedundantPercentQ:
   Enabled: false
-Style/UnneededPercentQ:
-  Enabled: false
-Layout/IndentAssignment:
+Layout/AssignmentIndentation:
   Enabled: false
 Layout/EmptyLinesAroundBeginBody:
   Enabled: false
 Style/SpecialGlobalVars:
-  Enabled: false
-Rails/ActiveRecordAliases:
   Enabled: false
 Style/PerlBackrefs:
   Enabled: false
